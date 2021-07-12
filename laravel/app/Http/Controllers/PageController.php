@@ -14,7 +14,6 @@ class PageController extends Controller
     }
 
     public function movies() {
-
         $movies = Movie::all();
         return view('movie', compact('movies'));
     }
